@@ -38,10 +38,14 @@ namespace UtilityApp
             try
             {
                 // grab the inputs from the text boxes
+                // ended up using null coalescing operator here to ensure we don't pass null values
+                // i tried to not use these but the program would crash with invalid inputs outside of debug mode
+                // later, i found out that the issue was due to the order of my syntax-- not because i didn't use null coalescing operators
+                // initially, i called Debug.Assert before validating the inputs, which caused the program to silently crash with no error output when invalid inputs were entered
                 string gamerTag = txtName.Text?.Trim() ?? string.Empty;
                 string health = txtHealth.Text?.Trim() ?? string.Empty;
 
-                // test the validation functions
+                // assign our bool functions to variables to use for both assertions and validation messages
                 bool nameIsValid = IsValidCharacterName(gamerTag);
                 bool healthIsValid = IsHealthInRange(health);
 
@@ -62,6 +66,9 @@ namespace UtilityApp
                     
                     MessageBox.Show(errorMessage, "Validation Failed");
                 }
+
+                // put debug.asserts at the end or you will get silent crashes outside of debug mode!
+                // ask me how i know, lol
 
                 // assert 1: character name should be between 3 and 20 characters
                 Debug.Assert(nameIsValid, 
