@@ -1,0 +1,16 @@
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\bin\Debug\net10.0-windows\UtilityApp.exe
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\bin\Debug\net10.0-windows\UtilityApp.deps.json
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\bin\Debug\net10.0-windows\UtilityApp.runtimeconfig.json
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\bin\Debug\net10.0-windows\UtilityApp.dll
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\bin\Debug\net10.0-windows\UtilityApp.pdb
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.frmAssert.resources
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.csproj.GenerateResource.cache
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.AssemblyInfoInputs.cache
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.AssemblyInfo.cs
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.csproj.CoreCompileInputs.cache
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.dll
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\refint\UtilityApp.dll
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.pdb
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\UtilityApp.genruntimeconfig.cache
+C:\Users\brero\Documents\UAT\CSC262 - C# Programming 2\UtilityApp\obj\Debug\net10.0-windows\ref\UtilityApp.dll
