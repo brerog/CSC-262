@@ -14,9 +14,11 @@ namespace UtilityApp
         // boolean function 1: check if character name is valid
         private bool IsValidCharacterName(string name)
         {
+            // check if name is null or empty
             if (string.IsNullOrEmpty(name))
                 return false;
-            
+
+            // check if name length is between 3 and 20 characters
             return name.Length >= 3 && name.Length <= 20;
         }
 
@@ -52,18 +54,21 @@ namespace UtilityApp
                 // if both validations pass, show success message
                 if (nameIsValid && healthIsValid)
                 {
-                    MessageBox.Show($"✓ Both assertions passed!\n\nCharacter Name: {gamerTag}\nHealth: {health}", 
+                    MessageBox.Show($"Both assertions passed!\n\nCharacter Name: {gamerTag}\nHealth: {health}", 
                         "Success");
                 }
                 else
                 {
                     // if either validation fails, show an error message with details
                     string errorMessage = "Assertion failures:\n\n";
+
+                    // build the error message based on which validations failed
                     if (!nameIsValid)
-                        errorMessage += $"• Name must be 3-20 characters (current: {gamerTag.Length})\n";
+                        errorMessage += $"Name must be 3-20 characters (current: {gamerTag.Length})\n";
                     if (!healthIsValid)
-                        errorMessage += $"• Health must be 1-100 (current: '{health}')\n";
-                    
+                        errorMessage += $"Health must be 1-100 (current: '{health}')\n";
+
+                    // show the error message to the user
                     MessageBox.Show(errorMessage, "Validation Failed");
                 }
 
@@ -78,8 +83,10 @@ namespace UtilityApp
                 Debug.Assert(healthIsValid, 
                     $"ASSERT FAILED: Health must be between 1 and 100. Current input: '{health}'");
             }
+            // catch any unexpected exceptions and show the user an error message
             catch (Exception ex)
             {
+                // print the exception details to message box for the user
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error");
             }
         }
